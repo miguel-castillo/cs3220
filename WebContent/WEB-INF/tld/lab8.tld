@@ -1,0 +1,26 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+        http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+		
+		
+	<display-name>Lab8 Custom Tag</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>lab8</short-name>
+    <uri>http://cs.calstatela.edu/cs3220stu44/lab8</uri>
+	
+	<tag>
+		<name>intToWord</name>
+		<tag-class>lab8.IntToWord</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>integer</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+		
+		
+</taglib>
+		
